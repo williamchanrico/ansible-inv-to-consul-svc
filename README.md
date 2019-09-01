@@ -10,7 +10,7 @@ Convert Ansible static inventory
 2.2.2.2
 ```
 
-into yaml format understood by consul ansible role:
+into YAML format understood by this [consul ansible role](https://github.com/brianshumate/ansible-consul):
 
 ```
 consul_services:
@@ -45,3 +45,5 @@ consul_services:
 ## Credits
 
 https://github.com/outten45/aini
+
+Small customization to support custom `consul_tag` ansible variable.
