@@ -7,7 +7,7 @@ import (
 	"strings"
 
 	"github.com/williamchanrico/ansible-inv-to-consul-svc/aini"
-	"gopkg.in/yaml.v2"
+	"gopkg.in/yaml.v3"
 )
 
 // Data struct contains consul_services ansible variable
